@@ -1,0 +1,132 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Advanced HTML5 Elements and Forms</title>  
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS if needed -->  
+</head>  
+<body>  
+
+    <header>  
+        <h1>Advanced HTML5 Elements and Forms</h1>  
+    </header>  
+
+    <!-- Ordered list with Roman numerals -->  
+    <section>  
+        <h2>Ordered List</h2>  
+        <ol type="I">  
+            <li>Item One</li>  
+            <li>Item Two</li>  
+            <li>Item Three</li>  
+            <li>Item Four</li>  
+            <li>Item Five</li>  
+        </ol>  
+    </section>  
+
+    <!-- External image from Pexels -->  
+    <section>  
+        <h2>Featured Image</h2>  
+        <img src="https://images.pexels.com/photos/3184419/pexels-photo-3184419.jpeg" alt="A beautiful scenery" width="600" height="400">  
+    </section>  
+
+    <!-- Table of contacts with names and addresses -->  
+    <section>  
+        <h2>Contact Table</h2>  
+        <table border="1">  
+            <thead>  
+                <tr>  
+                    <th>Name</th>  
+                    <th>Address</th>  
+                    <th>Mobile</th>  
+                    <th>Email</th>  
+                </tr>  
+            </thead>  
+            <tbody>  
+                <tr>  
+                    <td>James Mwangi</td>  
+                    <td>Karura, Nairobi</td>  
+                    <td>(070) 123-4567</td>  
+                    <td>james.mwangi@gmail.com</td>  
+                </tr>  
+                <tr>  
+                    <td>Aisha Abdalla</td>  
+                    <td>Eastleigh, Nairobi</td>  
+                    <td>(071) 234-5678</td>  
+                    <td>aisha.abdalla@gmail.com</td>  
+                </tr>  
+                <tr>  
+                    <td>Peter Njoroge</td>  
+                    <td>Ngong Road, Nairobi</td>  
+                    <td>(072) 345-6789</td>  
+                    <td>peter.njoroge@gmail.com</td>  
+                </tr>  
+                <tr>  
+                    <td>Grace Wambui</td>  
+                    <td>Kilimani, Nairobi</td>  
+                    <td>(073) 456-7890</td>  
+                    <td>grace.wambui@gmail.com</td>  
+                </tr>  
+                <tr>  
+                    <td>Samuel Otieno</td>  
+                    <td>Mombasa Rd, Nairobi</td>  
+                    <td>(074) 567-8901</td>  
+                    <td>samuel.otieno@gmail.com</td>  
+                </tr>  
+            </tbody>  
+        </table>  
+    </section>  
+
+    <!-- Registration Form -->  
+    <section>  
+        <h2>Registration Form</h2>  
+        <form action="#" method="POST">  
+            <label for="name">Name:</label>  
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>  
+
+            <label for="email">Email:</label>  
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>  
+
+            <label for="password">Password:</label>  
+            <input type="password" id="password" name="password" placeholder="Create a password" required>  
+
+            <label for="dob">Date of Birth:</label>  
+            <input type="date" id="dob" name="dob" required>  
+
+            <label for="gender">Gender:</label>  
+            <div>  
+                <input type="radio" id="male" name="gender" value="male" required>  
+                <label for="male">Male</label>  
+            </div>  
+            <div>  
+                <input type="radio" id="female" name="gender" value="female" required>  
+                <label for="female">Female</label>  
+            </div>  
+
+            <label for="preferences">Preferences:</label>  
+            <div>  
+                <input type="checkbox" id="newsletter" name="preferences" value="newsletter">  
+                <label for="newsletter">Subscribe to newsletter</label>  
+            </div>  
+            <div>  
+                <input type="checkbox" id="updates" name="preferences" value="updates">  
+                <label for="updates">Receive updates</label>  
+            </div>  
+
+            <label for="options">Choose an option:</label>  
+            <select id="options" name="options">  
+                <option value="option1">Option 1</option>  
+                <option value="option2">Option 2</option>  
+                <option value="option3">Option 3</option>  
+            </select>  
+
+            <button type="submit">Register</button>  
+        </form>  
+    </section>  
+
+    <footer>  
+        <p>&copy; 2025 Erastus Kimani. All rights reserved.</p>  
+    </footer>  
+
+</body>  
+</html>  
